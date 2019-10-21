@@ -1,0 +1,83 @@
+/*****  CSS Stats  *****/
+
+.center-all {
+    text-align: center;
+}
+
+.center-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.div-text-desc {
+    background-color: rgba(18, 49, 109, 0.5);
+    height: 100%;
+    width: 53%;
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+    padding: 15px;
+    line-height: 100%;
+}
+
+.text-desc {
+    line-height: normal;
+    font-size: 1.4vw;
+}
+
+.text-desc-div {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.desc-col-left {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 15px 0 40px !important;
+}
+
+.desc-col-right {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 40px 0 15px !important;
+}
+
+@media (max-width: 1199px) {
+    .desc-col-left {
+        margin-top: 20px;
+        text-align: center;
+        padding: 0 0 0 0 !important;
+    }
+
+    .desc-col-right {
+        margin-top: 20px;
+        text-align: center;
+        padding: 0 0 0 0 !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .desc-col-left {
+        margin-top: 20px;
+        text-align: center;
+        padding: 0 40px 0 40px !important;
+    }
+
+    .desc-col-right {
+        margin-top: 20px;
+        text-align: center;
+        padding: 0 40px 0 40px !important;
+    }
+
+    .text-desc {
+        font-size: 2.5vw;
+    }
+
+    #source {
+        padding-left: 40px!important;
+    }
+}

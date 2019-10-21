@@ -1,0 +1,140 @@
+/*****  CSS Description  *****/
+
+#top_description {
+    background-color: #dee2e0;
+    min-height: 360px;
+    margin-top: 15px;
+}
+
+#bottom_description {
+    min-height: 500px;
+}
+
+.title_top_description {
+    font-size: 2.5vw;
+}
+
+.picture_top_description {
+    background-image: url(../assets/description_circle.png);
+    height: 225px;
+    width: 225px;
+    padding-top: 25px;
+    background-size: cover;
+}
+
+.title_1_bottom_description {
+    font-size: 3.5vw;
+    line-height: 3.1vw;
+}
+
+.title_2_bottom_description {
+    font-size: 2.5vw;
+    line-height: 2.1vw;
+}
+
+.text_bottom_description {
+    font-size: 1.5vw;
+}
+
+.pop_in_selector_list {
+    height: 350px;
+    width: 360px;
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    margin: auto;
+}
+
+.pop_in_selector {
+    cursor: pointer;
+    position: relative;
+}
+
+.pop_in_selector:hover .taupe{
+    color: white;
+}
+
+.pop_in_selector:hover .sous_title_description{
+    color: white;
+}
+
+.pop_in_selector:hover{
+    cursor: pointer;
+    background-color: #2e9a97;
+}
+
+.pop_in_selector:hover .plus_description{
+    display: block;
+}
+
+.peine_description {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.sous_title_description {
+    font-size: 36px;
+    line-height: 32px;
+}
+
+.plus_description {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    font-size: 45px;
+    vertical-align: middle;
+    line-height: 12px;
+    text-align: center;
+    border-radius: 50px;
+    bottom: 25px;
+    right: -10px;
+    display: none;
+}
+
+.number_top_description {
+    font-size: 4.8vw;
+}
+
+.text_top_description {
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 768px) {
+    .picture_top_description {
+        margin: auto;
+    }
+    .source_description {
+        text-align: center;
+        font-size: 5px;
+    }
+    #arrow_description {
+        display: none;
+    }
+    .title_1_bottom_description {
+        font-size: 6vw;
+        line-height: 4.5vw;
+    }
+    
+    .title_2_bottom_description {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+
+    .text_bottom_description {
+        font-size: 4vw;
+    }
+
+    .number_top_description {
+        font-size: 9vw;
+        text-align: center;
+    }
+    .title_top_description {
+        font-size: 5vw;
+    }
+    .text_top_description {
+        font-size: 4vw;
+    }
+    .div_text_top_description {
+        text-align: center;
+    }
+}
