@@ -6,7 +6,9 @@ function checkHeight() {
         $(".social-header").css('display', 'none');
     } else {
         document.getElementById("top-header").style.backgroundColor = "white";
-        $(".social-header").css('display', 'block');
+        if (window.innerWidth > 767) {
+            $(".social-header").css('display', 'block');
+        }
     }
 }
 

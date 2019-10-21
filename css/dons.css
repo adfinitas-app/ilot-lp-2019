@@ -92,6 +92,13 @@
     padding-left: 20px;
 }
 
+@media(max-width:1200px) {
+    .description_column_don {
+        height: 155px;
+        max-height: 155px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .description_column_don {
         font-size: 4vw;
