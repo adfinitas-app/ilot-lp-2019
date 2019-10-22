@@ -8,6 +8,7 @@
 
 #bottom_description {
     min-height: 500px;
+    height: auto;
 }
 
 .title_top_description {
@@ -43,6 +44,9 @@
     -webkit-box-shadow: 0 0 5px #ccc;
     box-shadow: 0 0 5px #ccc;
     margin: auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .pop_in_selector {
