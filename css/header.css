@@ -21,6 +21,21 @@
     height: 120px;
 }
 
+#col-imgHeader1 {
+    position: relative;
+    left: 0vw;
+}
+
+#col-imgHeader2 {
+    position: relative;
+    left: 101vw;
+}
+
+#col-imgHeader3 {
+    position: relative;
+    left: 101vw;
+}
+
 @media (max-width: 1050px) {
     #div-don-header {
         text-align: center;
@@ -44,7 +59,7 @@
         width: 100%;
     }
 
-    #text-header {
+    .text-header {
         bottom: 15px!important;
     }
 
