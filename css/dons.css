@@ -91,6 +91,13 @@
     font-size: 1.2vw;
 }
 
+@media(min-width:1600px) {
+    .description_column_don {
+        height: 300px;
+        max-height: 300px;
+    }
+}
+
 @media(max-width:1200px) {
     .description_column_don {
         height: 155px;
