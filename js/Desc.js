@@ -69,5 +69,6 @@ function checkOpacityChange() {
 }
 
 document.onscroll = function () {
+    checkHeight();
     checkOpacityChange();
 };

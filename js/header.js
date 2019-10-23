@@ -10,7 +10,3 @@ function checkHeight() {
         }
     }
 }
-
-document.onscroll = function () {
-    checkHeight()
-};
