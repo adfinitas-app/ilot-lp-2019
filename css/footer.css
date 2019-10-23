@@ -1,7 +1,7 @@
 /*****  CSS Footer  *****/
 
 #crooked-box {
-    border: 1px black solid;
+    border: 1px rgb(147, 128, 122) solid;
     -webkit-transform: rotate(-15deg);
     -moz-transform: rotate(-15deg);
     -o-transform: rotate(-15deg);
