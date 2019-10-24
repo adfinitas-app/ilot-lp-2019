@@ -30,7 +30,7 @@ setInterval(function () {
             $("#imgHeader").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Img-Header.png");
         }).fadeIn(400);
     }
-}, 7000);
+}, 12000);
 
 
 
