@@ -24,7 +24,11 @@
 
 .text-desc {
     line-height: normal;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
+}
+
+.bold-desc {
+    font-size: 1.2vw;
 }
 
 .text-desc-div {
@@ -74,7 +78,11 @@
     }
 
     .text-desc {
-        font-size: 2.5vw;
+        font-size: 2.3vw;
+    }
+
+    .bold-desc {
+        font-size: 2.4vw;
     }
 
     #source {

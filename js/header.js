@@ -14,23 +14,24 @@ function checkHeight() {
 setInterval(function () {
     var currentImg = $("#imgHeader").attr("src");
 
-    console.log("currentImg: " + currentImg);
 
     if (currentImg === "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Img-Header.png") {
-        console.log("hdszkdhsb");
         $("#imgHeader").fadeOut(400, function () {
             $("#imgHeader").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Img2-Header.png");
         }).fadeIn(400);
+        $("#span-text-header").html("Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accompagner vers l'emploi</span>");
     } else if (currentImg === "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Img2-Header.png") {
         $("#imgHeader").fadeOut(400, function () {
             $("#imgHeader").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Img3-Header.png");
         }).fadeIn(400);
+        $("#span-text-header").html("Contre la récidive, prenons la peine <br /><span class='uppercase'>d'héberger</span>");
     } else if (currentImg === "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Img3-Header.png") {
         $("#imgHeader").fadeOut(400, function () {
             $("#imgHeader").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Img-Header.png");
         }).fadeIn(400);
+        $("#span-text-header").html("Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accueillir</span>");
     }
-}, 12000);
+}, 4000);
 
 
 
