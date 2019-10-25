@@ -44,16 +44,6 @@
     width: 25px;
     right: 10px;
     top: 10px;
-    font-size: 35px;
-    line-height: 32.5px;
-    vertical-align: middle;
-    text-align: center;
-    border-radius: 50px;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
     cursor: pointer;
 }
 

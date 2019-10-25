@@ -91,6 +91,12 @@
     font-size: 1.2vw;
 }
 
+.description_column_don_pop_in {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.6vw;
+}
+
 @media(min-width:1600px) {
     .description_column_don {
         height: 300px;
