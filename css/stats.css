@@ -28,8 +28,8 @@
 }
 
 .nom-fonction {
-    line-height: 0.9vw;
-    font-size: 0.8vw;
+    line-height: 1vw;
+    font-size: 0.9vw;
 }
 
 .bold-desc {
@@ -87,8 +87,8 @@
     }
 
     .nom-fonction {
-        line-height: 1.9vw;
-        font-size: 1.8vw;
+        line-height: 2vw;
+        font-size: 1.9vw;
     }
 
     .bold-desc {
