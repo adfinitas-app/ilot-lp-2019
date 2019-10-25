@@ -21,6 +21,9 @@
     height: 120px;
 }
 
+#top-header {
+    width: 102vw;
+}
 
 @media (max-width: 1050px) {
     #div-don-header {
@@ -36,6 +39,9 @@
         vertical-align: middle;
         font-size: 17px;
         font-weight: bold;
+    }
+    #top-header {
+        width: 102vw;
     }
 }
 
@@ -67,5 +73,12 @@
         vertical-align: middle;
         font-size: 16px;
         font-weight: bold;
+    }
+}
+
+@media (max-width: 540px) {
+    #logo-lilot-header {
+        padding: 20px;
+        width: 80%;
     }
 }
