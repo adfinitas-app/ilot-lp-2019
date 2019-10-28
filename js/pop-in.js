@@ -3,7 +3,7 @@
     var intervalPopIn;
 
     for (var i = 1; i <= 3; i++) {
-        $(description_pop_in + String(i)).click(function() {
+        $(description_pop_in + String(i)).click(function () {
             if (this.id == "description_pop_in_1") {
                 $(".pad_left_pop_in").html("<br><span class='vert_code'>La prison est souvent facteur d'isolement voir d'exclusion de notre                    société.</span> Au sein de nos centres d'hébergement, nous accueillons les personnes                sortant de prison ou encore sous main de justice pour leur éviter la rue et la dérive sociale,                voire la récidive. Offrir un toit, un repas chaud, rompre la solitude en échangeant avec nos                équipes, tout cela constitue les premières bases de notre accueil.<br><br>                De plus, chaque personne accueillie est suivie par un travailleur social, qui devient son                référent tout au long se son parcours avec l'Îlot. Avec lui, elle élabore un projet                individualisé en abordant toutes les dimensions sociales nécessaires à la réinsertion (rétablir                les droits sociaux, retisser les liens familiaux, prendre en charge sa santé, etc.). Tout ce                parcours au sein de notre association se fait en valorisant la personne accompagnée afin de lui                permettre de prendre un nouveau départ et de devenir actrice de sa vie.                <br><br>");
                 $(".title_pop_in").html("prenons la peine d'accueillir");
@@ -36,7 +36,7 @@
         });
     }
 
-    $("#close_pop_in").click(function() {
+    $("#close_pop_in").click(function () {
         intervalPopIn = setInterval(changeOpacityPopIn, 50);
     });
 

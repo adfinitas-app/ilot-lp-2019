@@ -114,6 +114,7 @@
 @media screen and (max-width: 768px) {
     .description_column_don {
         font-size: 4vw;
+        min-height: 250px;
     }
     .column_don_don {
         margin-bottom: 50px;
@@ -133,7 +134,8 @@
 
 @media screen and (max-width: 540px) {
     .description_column_don {
-        font-size: 5vw;
+        font-size: 4.5vw;
+        min-height: 300px;
     }
     .reduc_don {
         font-size: 5vw;
