@@ -33,6 +33,7 @@
 
 .title_pop_in {
     font-size: 30px;
+    margin-top: 270px;
 }
 
 .pad_left_pop_in {
@@ -48,6 +49,7 @@
     width: 25px;
     cursor: pointer;
     z-index: 900;
+    margin-top: -270px;
 }
 
 @media screen and (max-width: 850px) {
@@ -63,6 +65,7 @@
     }
     .title_pop_in {
         font-size: 3vw;
+        margin-top: 0;
     }
     #pop_in {
         padding-top: 0px;
@@ -74,11 +77,15 @@
         right: 10px!important;
         top: 10px;
         z-index: 900;
+        margin-top: 0px;
     }
 }
 
 @media screen and (max-width: 450px) {
     .title_pop_in {
         font-size: 4vw;
+    }
+    #pop_in_div {
+        padding-top: 150px;
     }
 }
