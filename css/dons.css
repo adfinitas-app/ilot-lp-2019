@@ -113,15 +113,15 @@
 
 @media screen and (max-width: 768px) {
     .description_column_don {
-        font-size: 4vw;
+        font-size: 3vw;
         min-height: 250px;
     }
     .column_don_don {
         margin-bottom: 50px;
     }
     #column_don_don_left, #column_don_don_center, #column_don_don_right{
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
     .group_column_don, .reduc_don, .titles_don {
         background-color: #2e9a97;
@@ -130,6 +130,7 @@
         font-size: 2vw;
         padding-left: 20px;
     }
+
 }
 
 @media screen and (max-width: 540px) {
@@ -140,5 +141,9 @@
     .reduc_don {
         font-size: 5vw;
         padding-left: 20px;
+    }
+    #column_don_don_left, #column_don_don_center, #column_don_don_right{
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
