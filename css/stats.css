@@ -73,17 +73,17 @@
     .desc-col-left {
         margin-top: 20px;
         text-align: center;
-        height: 90vw;
+        height: 100vw;
         padding: 0 40px 0 40px !important;
     }
 
     .div-text-desc {
         background-color: rgba(18, 49, 109, 0.7);
-        height: 55%;
+        height: 65%;
         width: 100%;
         z-index: 2;
         position: relative;
-        top: -55%;
+        top: -65%;
         text-align: left;
         padding: 15px;
         line-height: 100%;
@@ -92,21 +92,21 @@
     .desc-col-right {
         margin-top: 20px;
         text-align: center;
-        height: 90vw;
+        height: 100vw;
         padding: 0 40px 0 40px !important;
     }
 
     .text-desc {
-        font-size: 2.6vw;
+        font-size: 3.2vw;
     }
 
     .nom-fonction {
-        line-height: 2.3vw;
-        font-size: 2.3vw;
+        line-height: 2.5vw;
+        font-size: 2.5vw;
     }
 
     .bold-desc {
-        font-size: 2.8vw;
+        font-size: 3.4vw;
     }
 
     #source {
