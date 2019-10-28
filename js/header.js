@@ -7,6 +7,8 @@ function checkHeight() {
         document.getElementById("top-header").style.backgroundColor = "white";
         if (window.innerWidth > 767) {
             $(".social-header").css('display', 'block');
+        } else {
+            $(".social-header").css('display', 'none');
         }
     }
 }
@@ -31,9 +33,15 @@ setInterval(function () {
         }).fadeIn(400);
         $("#span-text-header").html("Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accueillir</span>");
     }
-}, 4000);
+}, 12000);
 
-
+$( window ).resize(function() {
+    if (window.innerWidth < 767) {
+        $(".social-header").css('display', 'none');
+    } else {
+        $(".social-header").css('display', 'block');
+    }
+});
 
 
 
