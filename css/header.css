@@ -59,7 +59,7 @@
     }
 
     .text-header {
-        bottom: 15px!important;
+        bottom: 25px!important;
     }
 
     #col-logo-lilot-header {
@@ -77,6 +77,10 @@
 
     #top-header {
         width: 103vw;
+    }
+
+    #span-text-header {
+        font-size: 6vw!important;
     }
 
     #text-don-header {
