@@ -10,7 +10,7 @@ var headerImgHeight;
 if(window.innerWidth <= 767) {
     heightActivate = 350;
     heightActivateDesc = -100;
-    headerImgHeight = window.innerHeight - 115;
+    headerImgHeight = window.innerHeight - 80;
     console.log(headerImgHeight);
     $("#TEM1").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM1-Mob.png");
     $("#TEM2").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM2-Mob.png");
@@ -31,7 +31,7 @@ $( window ).resize(function () {
     if(window.innerWidth <= 767) {
         heightActivate = 350;
         heightActivateDesc = -100;
-        headerImgHeight = window.innerHeight - 115;
+        headerImgHeight = window.innerHeight - 80;
         console.log(headerImgHeight);
         $("#TEM1").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM1-Mob.png");
         $("#TEM2").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM2-Mob.png");
