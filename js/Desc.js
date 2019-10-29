@@ -5,15 +5,19 @@ var augmentOpacity42 = 0;
 var augmentOpacitynbTopDesc = 0;
 var heightActivate = 250;
 var heightActivateDesc = -350;
+var headerImgHeight;
 
 if(window.innerWidth <= 767) {
     heightActivate = 350;
     heightActivateDesc = -100;
+    headerImgHeight = window.innerHeight - 115;
+    console.log(headerImgHeight);
     $("#TEM1").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM1-Mob.png");
     $("#TEM2").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM2-Mob.png");
     $("#TEM3").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM3-Mob.png");
     $("#TEM4").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM4-Mob.png");
     $("#imgHeader").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Header-Img-M.png");
+    $("#imgHeader").attr("height", headerImgHeight + "px");
     $("#text-stats").html("L'Îlot est une association reconnue d'intérêt public, labellisée depuis 1996 par le Don en Confiance, un organisme à but non lucratif d'agrément et de contrôle des associations et fondations faisant appel aux dons.");
 
 }
@@ -27,11 +31,14 @@ $( window ).resize(function () {
     if(window.innerWidth <= 767) {
         heightActivate = 350;
         heightActivateDesc = -100;
+        headerImgHeight = window.innerHeight - 115;
+        console.log(headerImgHeight);
         $("#TEM1").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM1-Mob.png");
         $("#TEM2").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM2-Mob.png");
         $("#TEM3").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM3-Mob.png");
         $("#TEM4").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM4-Mob.png");
         $("#imgHeader").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Header-Img-M.png");
+        $("#imgHeader").attr("height", headerImgHeight + "px");
         $("#text-stats").html("<br />L'Îlot est une association reconnue d'intérêt public, labellisée depuis 1996 par le Don en Confiance, un organisme à but non lucratif d'agrément et de contrôle des associations et fondations faisant appel aux dons.");
     }
 
@@ -41,6 +48,7 @@ $( window ).resize(function () {
         $("#TEM3").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM3.png");
         $("#TEM4").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/beneficiaire.png");
         $("#imgHeader").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Img-Header.png");
+        $("#imgHeader").attr("height", "auto");
         $("#text-stats").html("<br />L'Îlot est une association reconnue d'intérêt public, labellisée<br/> depuis 1996 par le Don en Confiance, un organisme à but non<br /> lucratif d'agrément et de contrôle des associations et fondations<br /> faisant appel aux dons.");
 
     }
