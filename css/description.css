@@ -25,7 +25,7 @@
 
 .title_1_bottom_description {
     font-size: 3.5vw;
-    line-height: 3.5vw;
+    line-height: 4.2vw;
 }
 
 .title_2_bottom_description {
@@ -72,13 +72,15 @@
 }
 
 .peine_description {
-    font-size: 25px;
+    font-size: 26px;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .sous_title_description {
-    font-size: 36px;
+    font-size: 33px;
     line-height: 32px;
+    font-weight: bold;
 }
 
 .plus_description {

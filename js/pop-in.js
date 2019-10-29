@@ -33,6 +33,7 @@
 
             }
             $("#pop_in").css("display", "block");
+            document.documentElement.style.overflow = 'hidden';
         });
     }
 
@@ -47,9 +48,13 @@
             clearInterval(intervalPopIn);
             $("#pop_in").css("display", "none");
             $("#pop_in").css("opacity", "1");
+            document.documentElement.style.overflow = 'visible';
         } else {
             opacity -= 0.05;
             $("#pop_in").css("opacity", opacity);
         }
     }
+    $("#pop_in_div").scroll(function(){
+        $("#close_pop_in").css({"top": ($("#pop_in_div").scrollTop()) + 15 + "px"});
+      });
 })();
