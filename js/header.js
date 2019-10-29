@@ -35,7 +35,7 @@ setInterval(function () {
         }).fadeIn(400);
         $("#span-text-header").html("Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accueillir</span>");
     }
-}, 8000);
+}, 5000);
 
 $( window ).resize(function() {
     if (window.innerWidth < 767) {
