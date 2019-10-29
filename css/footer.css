@@ -12,6 +12,7 @@
     width: 350px;
     display: table;
     margin: 0 auto;
+    margin-right: 1.5vw !important;
 }
 
 #undo-crooked-box {
@@ -34,6 +35,10 @@
     margin-top: 5px;
 }
 
+#graph-img {
+    width: 100%;
+}
+
 .text-in-list {
     margin-top: -10px;
     margin-left: 10px;
@@ -43,7 +48,6 @@
     #graph-img {
         width: 100%;
     }
-
 }
 
 @media (max-width: 500px) {
@@ -59,7 +63,7 @@
         width: 85%;
         display: table;
         margin: 0 auto;
-        margin-left: 40px !important;
+        margin-right: 40px !important;
     }
 
     #conviction-list {
@@ -91,6 +95,19 @@
         margin: 40px auto 0 auto;
     }
 
+    #crooked-box {
+        border: 1px rgb(147, 128, 122) solid;
+        -webkit-transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+        padding-bottom: 40px;
+        padding-right: 20px;
+        width: 350px;
+        display: table;
+        margin-left: 20%!important;
+    }
     #footer {
         padding-left: 15px !important;
     }
@@ -104,7 +121,43 @@
     }
 }
 
+@media (max-width: 1300px) {
+    #crooked-box {
+        border: 1px rgb(147, 128, 122) solid;
+        -webkit-transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+        padding-bottom: 40px;
+        padding-right: 20px;
+        width: 85%;
+        display: table;
+        margin: 0 auto;
+        margin-left: 8vw !important;
+    }
+}
+
 @media (max-width: 1199px) {
+    #graph-img {
+        width: 70%;
+    }
+    #col-graph-footer {
+        padding-left: 23vw!important;
+    }
+    #crooked-box {
+        border: 1px rgb(147, 128, 122) solid;
+        -webkit-transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+        padding-bottom: 40px;
+        padding-right: 20px;
+        width: 350px;
+        display: table;
+        margin-left: 33%!important;
+    }
     #col-logo-footer {
         text-align: center;
     }
