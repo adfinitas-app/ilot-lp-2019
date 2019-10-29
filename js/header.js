@@ -3,7 +3,9 @@ function checkHeight() {
     if (heightElement <= 0) {
         document.getElementById("top-header").style.backgroundColor = "rgba(0, 0, 0, 0)";
         $(".social-header").css('display', 'none');
+        $("#top-header").css("position", "initial");
     } else {
+        $("#top-header").css("position", "fixed");
         document.getElementById("top-header").style.backgroundColor = "white";
         if (window.innerWidth > 767) {
             $(".social-header").css('display', 'block');

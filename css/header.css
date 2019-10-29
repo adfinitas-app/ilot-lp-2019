@@ -6,14 +6,14 @@
     width: 300px;
     display: table;
     margin: 40px 0 20px 0;
-    right: 0px;
+    right: 40px;
 }
 
 #text-don-header {
     display: table-cell;
     vertical-align: middle;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 #logo-lilot-header {
@@ -23,6 +23,7 @@
 
 #top-header {
     width: 102vw;
+    position: initial;
 }
 
 @media (max-width: 1050px) {
@@ -38,7 +39,7 @@
         display: table-cell;
         vertical-align: middle;
         font-size: 17px;
-        font-weight: bold;
+        font-weight: 900;
     }
     #top-header {
         width: 102vw;

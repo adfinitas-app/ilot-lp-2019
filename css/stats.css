@@ -37,11 +37,15 @@
 }
 
 .text-desc-div {
+    margin-top: 25px;
+}
+
+/*.text-desc-div {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
-}
+}*/
 
 .desc-col-left {
     margin-top: 20px;

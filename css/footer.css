@@ -67,7 +67,14 @@
     }
 }
 
-
+@media (min-width: 1400px) {
+    #footer-left-desc {
+        transform: scale(1.1);
+    }
+    #conviction-div {
+        transform: scale(1.3);
+    }
+}
 
 @media (max-width: 767px) {
     #DEC-footer {
