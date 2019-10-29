@@ -16,7 +16,7 @@
 
 #undo-crooked-box {
     padding-top: 40px;
-    padding-left: 30px;
+    padding-left: 10px;
     text-align: center;
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
@@ -68,6 +68,15 @@
 }
 
 @media (min-width: 1400px) {
+    #footer-left-desc {
+        transform: scale(1.1);
+    }
+    #conviction-div {
+        transform: scale(1.2);
+    }
+}
+
+@media (min-width: 1430px) {
     #footer-left-desc {
         transform: scale(1.1);
     }

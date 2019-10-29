@@ -2,7 +2,7 @@ function checkHeight() {
     var heightElement = window.scrollY;
     if (heightElement <= 0) {
         document.getElementById("top-header").style.backgroundColor = "rgba(0, 0, 0, 0)";
-        $(".social-header").css('display', 'none');
+        $(".social-header").css('display', 'block');
         $("#top-header").css("position", "initial");
     } else {
         $("#top-header").css("position", "fixed");
