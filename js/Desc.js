@@ -9,10 +9,12 @@ var heightActivateDesc = -350;
 if(window.innerWidth <= 767) {
     heightActivate = 350;
     heightActivateDesc = -100;
-    $("#TEM1").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM1-Mobile.png");
-    $("#TEM2").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM2-Mobile.png");
-    $("#TEM3").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM3-Mobile.png");
-    $("#TEM4").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM4-Mobile.png");
+    $("#TEM1").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM1-Mob.png");
+    $("#TEM2").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM2-Mob.png");
+    $("#TEM3").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM3-Mob.png");
+    $("#TEM4").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM4-Mob.png");
+    $("#text-stats").html("L'Îlot est une association reconnue d'intérêt public, labellisée depuis 1996 par le Don en Confiance, un organisme à but non lucratif d'agrément et de contrôle des associations et fondations faisant appel aux dons.");
+
 }
 
 if(window.innerWidth <= 620) {
@@ -24,11 +26,11 @@ $( window ).resize(function () {
     if(window.innerWidth <= 767) {
         heightActivate = 350;
         heightActivateDesc = -100;
-        console.log("hello");
-        $("#TEM1").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM1-Mobile.png");
-        $("#TEM2").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM2-Mobile.png");
-        $("#TEM3").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM3-Mobile.png");
-        $("#TEM4").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM4-Mobile.png");
+        $("#TEM1").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM1-Mob.png");
+        $("#TEM2").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM2-Mob.png");
+        $("#TEM3").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM3-Mob.png");
+        $("#TEM4").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM4-Mob.png");
+        $("#text-stats").html("<br />L'Îlot est une association reconnue d'intérêt public, labellisée depuis 1996 par le Don en Confiance, un organisme à but non lucratif d'agrément et de contrôle des associations et fondations faisant appel aux dons.");
     }
 
     if(window.innerWidth > 767) {
@@ -36,6 +38,8 @@ $( window ).resize(function () {
         $("#TEM2").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM2.png");
         $("#TEM3").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM3.png");
         $("#TEM4").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM4.png");
+        $("#text-stats").html("<br />L'Îlot est une association reconnue d'intérêt public, labellisée<br/> depuis 1996 par le Don en Confiance, un organisme à but non<br /> lucratif d'agrément et de contrôle des associations et fondations<br /> faisant appel aux dons.");
+
     }
 
     if(window.innerWidth <= 620) {
@@ -59,7 +63,6 @@ function checkOpacityChange() {
     heightElement42 = heightElement42 - window.scrollY;
     heightElementnbTopDesc = heightElementnbTopDesc - window.scrollY;
 
-    console.log("height 2: " + heightElementnbTopDesc + " < " + heightActivateDesc);
     if ( augmentOpacitynbTopDesc < 1) {
         if (heightElementnbTopDesc < heightActivateDesc) {
             timerOpacity = setInterval(function () {
@@ -74,7 +77,6 @@ function checkOpacityChange() {
         }
     }
 
-    console.log("height: " + heightElement1200);
     if ( augmentOpacity1200 < 1) {
         if (heightElement1200 < heightActivate) {
             timerOpacity = setInterval(function () {
