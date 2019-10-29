@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/description.css">
     <link rel="stylesheet" type="text/css" href="css/pop-in.css">
     <link rel="stylesheet" type="text/css" href="css/mentions.css">
+    <link rel="stylesheet" type="text/css" href="css/credits.css">
     <link rel="stylesheet" type="text/css" href="css/stats.css">
     <link rel="stylesheet" type="text/css" href="css/dons.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
@@ -717,7 +718,7 @@
                                 Mentions légales
                             </a>
                             -
-                            <a href="" target="_blank" style="color: #707070">
+                            <a style="color: #707070; cursor: pointer;" id="credits_click">
                                 Crédits
                             </a>
                             -
@@ -868,11 +869,31 @@
             </div>
         </div>
     </div>
+
+    <!--credits-->
+
+
+    <div class="container-fluid">
+        <div id="credits" style="z-index: 30;">
+            <div id="credits_div" class="noir_pur overpass" style="font-size: 20px;">
+                <div id="close_credits" class="overpass blanc_pur- bold">
+                    <img src="assets/Fermeture.png">
+                </div>
+                <span class="vert_code bold"
+                    style="font-size: 30px;"><br>CRÉDITS PHOTOGRAPHIQUES</span><br>
+                Sauf mention
+                contraire, toutes les photographies du site sont la propriété de l'Îlot ou des photographes Emmanuel
+                Simiand et Inanis. Toute reproduction est interdite.<br>
+                © L'Îlot<br>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="./js/header.js"></script>
 <script src="./js/pop-in.js"></script>
 <script src="./js/mentions.js"></script>
+<script src="./js/credits.js"></script>
 <script src="./js/Desc.js"></script>
 <script src="./js/description.js"></script>
 
