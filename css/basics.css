@@ -13,11 +13,15 @@ html, body {
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .semi-bold {
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.regular {
+    font-weight: 400;
 }
 
 .no-padding {
