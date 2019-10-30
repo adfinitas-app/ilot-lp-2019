@@ -83,11 +83,11 @@
 
     .div-text-desc {
         background-color: rgba(18, 49, 109, 0.7);
-        height: 65%;
+        height: 70%;
         width: 100%;
         z-index: 2;
         position: relative;
-        top: -65%;
+        top: -70%;
         text-align: left;
         padding: 15px;
         padding-top: 5px!important;
@@ -120,6 +120,60 @@
 
     .bold-desc {
         font-size: 3.4vw;
+    }
+
+    #source {
+        padding-left: 40px!important;
+    }
+}
+
+@media (max-width: 500px) {
+    .desc-col-left {
+        margin-top: 20px;
+        text-align: center;
+        height: 100vw;
+        padding: 0 40px 0 40px !important;
+    }
+
+    .div-text-desc {
+        background-color: rgba(18, 49, 109, 0.7);
+        height: 75%;
+        width: 100%;
+        z-index: 2;
+        position: relative;
+        top: -75%;
+        text-align: left;
+        padding: 15px;
+        padding-top: 5px!important;
+        line-height: 100%;
+    }
+
+    .text-desc-div {
+        margin-top: 10px;
+    }
+
+    .desc-col-right {
+        margin-top: 20px;
+        text-align: center;
+        height: 100vw;
+        padding: 0 40px 0 40px !important;
+    }
+
+    .text-desc {
+        font-size: 3.7vw;
+    }
+
+    .nom-fonction {
+        line-height: 3vw;
+        font-size: 3vw;
+    }
+
+    #text-stats {
+        font-size: 2vw;
+    }
+
+    .bold-desc {
+        font-size: 3.7vw;
     }
 
     #source {
