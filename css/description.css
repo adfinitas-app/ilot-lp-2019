@@ -106,6 +106,17 @@
     font-size: 1vw;
 }
 
+@media screen and (max-width: 968px) {
+    .text_top_description {
+        font-size: 1.5vw;
+    }
+
+    .number_top_description {
+        font-size: 6.5vw;
+        text-align: right;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .picture_top_description {
         margin: auto;

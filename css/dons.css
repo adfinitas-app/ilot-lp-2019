@@ -111,6 +111,20 @@
     }
 }
 
+#br_don {
+    display: none;
+}
+
+
+@media screen and (max-height: 768px) {
+    #br_don {
+        display: block;
+    }
+    #height_small_don {
+        line-height: 8vh!important;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .description_column_don {
         font-size: 3vw;
