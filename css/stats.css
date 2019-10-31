@@ -81,6 +81,10 @@
         padding: 0 40px 0 40px !important;
     }
 
+    .mobile_none {
+        display: none;
+    }
+
     .div-text-desc {
         background-color: rgba(18, 49, 109, 0.7);
         height: 70%;
