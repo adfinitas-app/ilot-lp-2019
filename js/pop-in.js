@@ -35,7 +35,9 @@
                 $("#link_don_pop-in").attr("href", "https://donner.ilot.asso.fr/b?cid=4&reserved_code=emploi&amount=17000&frequency=once&utm_medium=web&utm_source=landingpage&utm_campaign=fa2019&utm_content=emploi");
             }
             $("#pop_in").css("display", "block");
-            document.documentElement.style.overflow = 'hidden';
+            if ($(window).width() > 768) {
+                document.documentElement.style.overflow = 'hidden';
+            }
         });
     }
 
@@ -50,7 +52,9 @@
             clearInterval(intervalPopIn);
             $("#pop_in").css("display", "none");
             $("#pop_in").css("opacity", "1");
-            document.documentElement.style.overflow = 'visible';
+            if ($(window).width() > 768) {
+                document.documentElement.style.overflow = 'visible';
+            }
         } else {
             opacity -= 0.05;
             $("#pop_in").css("opacity", opacity);
