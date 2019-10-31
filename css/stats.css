@@ -106,12 +106,12 @@
     }
 
     .text-desc {
-        font-size: 3.2vw;
+        font-size: 3.2vh;
     }
 
     .nom-fonction {
-        line-height: 2.5vw;
-        font-size: 2.5vw;
+        line-height: 2.5vh;
+        font-size: 2.5vh;
     }
 
     #text-stats {
@@ -119,7 +119,7 @@
     }
 
     .bold-desc {
-        font-size: 3.4vw;
+        font-size: 3.4vh;
     }
 
     #source {
@@ -160,21 +160,19 @@
     }
 
     .text-desc {
-        font-size: 3.9vw;
+        font-size: 2.5vh;
     }
 
     .nom-fonction {
-        line-height: 3vw;
-        font-size: 3vw;
+        line-height: 2vh;
+        font-size: 2vh;
     }
 
     #text-stats {
-        font-size: 2vw;
+        font-size: 2.2vw;
     }
 
-    .bold-desc {
-        font-size: 3.9vw;
-    }
+
 
     #source {
         padding-left: 40px!important;
