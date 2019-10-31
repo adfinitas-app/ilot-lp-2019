@@ -10,6 +10,11 @@
     margin-top: 50px;
 }
 
+.TEM-img {
+    width: 100%;
+    z-index: 1;
+}
+
 .div-text-desc {
     background-color: rgba(18, 49, 109, 0.7);
     height: 100%;
@@ -135,17 +140,22 @@
     .desc-col-left {
         margin-top: 20px;
         text-align: center;
-        height: 100vw;
+        height: 85vh;
         padding: 0 40px 0 40px !important;
+    }
+
+    .TEM-img {
+        height: 80vh;
+        z-index: 1;
     }
 
     .div-text-desc {
         background-color: rgba(18, 49, 109, 0.7);
-        height: 75%;
+        height: 70%;
         width: 100%;
         z-index: 2;
         position: relative;
-        top: -75%;
+        top: -70%;
         text-align: left;
         padding: 15px;
         padding-top: 5px!important;
@@ -159,7 +169,7 @@
     .desc-col-right {
         margin-top: 20px;
         text-align: center;
-        height: 100vw;
+        height: 85vh;
         padding: 0 40px 0 40px !important;
     }
 
