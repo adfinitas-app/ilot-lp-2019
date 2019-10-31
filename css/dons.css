@@ -138,13 +138,15 @@
         padding-right: 100px;
     }
     .group_column_don, .reduc_don, .titles_don {
-        background-color: #366c64;
+        background-color: #2e9a97;
     }
     .reduc_don {
         font-size: 2vw;
         padding-left: 20px;
     }
-
+    .column_don_don_inside {
+        background-color: rgba(93, 80, 75, .9);
+    }
 }
 
 @media screen and (max-width: 540px) {
