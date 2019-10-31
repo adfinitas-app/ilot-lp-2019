@@ -28,22 +28,19 @@
 }
 
 .list-bullet-img {
-    background: url(https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/%3E.png) no-repeat left top;
-    background-position: left top 6px;
+    background: url(https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/%3E.png) no-repeat left 3px;
+    padding-left: 20px;
+    padding-top: 0px;
     background-size: 10px 15px;
-    padding: 3px 0px 3px 10px;
     list-style: none;
-    margin-top: 5px;
+    margin-top: 6px;
 }
 
 #graph-img {
     width: 100%;
 }
 
-.text-in-list {
-    margin-top: -10px;
-    margin-left: 10px;
-}
+
 
 @media (max-width: 620px) {
     #graph-img {
@@ -135,6 +132,10 @@
         margin: 40px auto 0 auto;
     }
 
+    .mobile_none {
+        display: none;
+    }
+
     #crooked-box {
         border: 1px rgb(147, 128, 122) solid;
         -webkit-transform: rotate(-15deg);
@@ -162,6 +163,9 @@
 }
 
 @media (max-width: 500px) {
+    .mobile_none {
+        display: none;
+    }
     #crooked-box {
         border: 1px rgb(147, 128, 122) solid;
         -webkit-transform: rotate(-15deg);
@@ -177,7 +181,11 @@
         margin-left: 15vw !important;
     }
 
+    .text-in-list {
+        font-size: 3.2vw;
+    }
+
     #conviction-list {
-        font-size: 2.6vw;
+        font-size: 1.3vh;
     }
 }
