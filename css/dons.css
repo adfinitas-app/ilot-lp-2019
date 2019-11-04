@@ -148,6 +148,9 @@ a:hover {
     .column_don_don_inside {
         background-color: rgba(93, 80, 75, .77);
     }
+    #mobile_don_background {
+        background-position: right;
+    }
 }
 
 @media screen and (max-width: 540px) {
