@@ -5,6 +5,10 @@
     font-size: 35px;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .title_don_2 {
     color: white;
     font-size: 45px;
@@ -137,15 +141,12 @@
         padding-left: 100px;
         padding-right: 100px;
     }
-    .group_column_don, .reduc_don, .titles_don {
-        background-color: #2e9a97;
-    }
     .reduc_don {
         font-size: 2vw;
         padding-left: 20px;
     }
     .column_don_don_inside {
-        background-color: rgba(93, 80, 75, .9);
+        background-color: rgba(93, 80, 75, .77);
     }
 }
 
