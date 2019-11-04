@@ -140,12 +140,12 @@
     .desc-col-left {
         margin-top: 20px;
         text-align: center;
-        height: 80vh;
+        height: 100vw;
         padding: 0 40px 0 40px !important;
     }
 
     .TEM-img {
-        height: 80vh;
+        height: 100vw;
         z-index: 1;
     }
 
@@ -169,17 +169,17 @@
     .desc-col-right {
         margin-top: 20px;
         text-align: center;
-        height: 85vh;
+        height: 100vw;
         padding: 0 40px 0 40px !important;
     }
 
     .text-desc {
-        font-size: 2.5vh;
+        font-size: 3.5vw;
     }
 
     .nom-fonction {
-        line-height: 2vh;
-        font-size: 2vh;
+        line-height: 3vw;
+        font-size: 3vw;
     }
 
     #text-stats {
