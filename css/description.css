@@ -17,9 +17,9 @@
 
 .picture_top_description {
     background-image: url(../assets/description_circle.png);
-    height: 225px;
-    width: 225px;
-    padding-top: 25px;
+    height: 270px;
+    width: 270px;
+    padding-top: 60px;
     background-size: cover;
 }
 
@@ -129,8 +129,9 @@
         display: none;
     }
     .title_1_bottom_description {
-        font-size: 6vw;
+        font-size: 5vw;
         line-height: 4.5vw;
+        font-weight: 500!important;
     }
     
     .title_2_bottom_description {

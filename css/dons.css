@@ -125,7 +125,8 @@ a:hover {
         display: block;
     }
     #height_small_don {
-        line-height: 8vh!important;
+        padding-top: 3vh!important;
+        line-height: 6vh!important;   
     }
 }
 
@@ -147,6 +148,9 @@ a:hover {
     }
     .column_don_don_inside {
         background-color: rgba(93, 80, 75, .77);
+    }
+    #height_small_don {
+        padding-top: 3vh!important;  
     }
     
 }
