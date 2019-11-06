@@ -1,7 +1,7 @@
 /*****  CSS Footer  *****/
 
 #crooked-box {
-    border: 1px rgb(147, 128, 122) solid;
+    border: 1px #82736d solid;
     -webkit-transform: rotate(-15deg);
     -moz-transform: rotate(-15deg);
     -o-transform: rotate(-15deg);
@@ -70,7 +70,7 @@
 
 @media (max-width: 1300px) {
     #crooked-box {
-        border: 1px rgb(147, 128, 122) solid;
+        border: 1px #82736d solid;
         -webkit-transform: rotate(-15deg);
         -moz-transform: rotate(-15deg);
         -o-transform: rotate(-15deg);
@@ -96,7 +96,7 @@
         padding-left: 23vw!important;
     }
     #crooked-box {
-        border: 1px rgb(147, 128, 122) solid;
+        border: 1px #82736d solid;
         -webkit-transform: rotate(-15deg);
         -moz-transform: rotate(-15deg);
         -o-transform: rotate(-15deg);
@@ -137,7 +137,7 @@
     }
 
     #crooked-box {
-        border: 1px rgb(147, 128, 122) solid;
+        border: 1px #82736d solid;
         -webkit-transform: rotate(-15deg);
         -moz-transform: rotate(-15deg);
         -o-transform: rotate(-15deg);
@@ -167,7 +167,7 @@
         display: none;
     }
     #crooked-box {
-        border: 1px rgb(147, 128, 122) solid;
+        border: 1px #82736d solid;
         -webkit-transform: rotate(-15deg);
         -moz-transform: rotate(-15deg);
         -o-transform: rotate(-15deg);
