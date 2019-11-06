@@ -148,6 +148,7 @@ a:hover {
     .column_don_don_inside {
         background-color: rgba(93, 80, 75, .77);
     }
+    
 }
 
 @media screen and (max-width: 540px) {
@@ -162,5 +163,8 @@ a:hover {
     #column_don_don_left, #column_don_don_center, #column_don_don_right{
         padding-left: 15px;
         padding-right: 15px;
+    }
+    #mobile_don_background {
+        background-position: 800px;
     }
 }
