@@ -170,7 +170,30 @@ function checkOpacityChange() {
     }
 }
 
+function msieversion()
+{
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf("MSIE ");
+    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) // If Internet Explorer, return version number
+    {
+        document.getElementById("42%").style.opacity = 1;
+        document.getElementById("11Mois").style.opacity = 1;
+        document.getElementById("53%").style.opacity = 1;
+        document.getElementById("1200").style.opacity = 1;
+        document.getElementsByClassName("number_top_description")[0].style.opacity = 1;
+        document.getElementsByClassName("number_top_description")[1].style.opacity = 1;
+        augmentOpacity1200 = 1;
+        augmentOpacity53 = 1;
+        augmentOpacity11Mois = 1;
+        augmentOpacity42 = 1;
+        augmentOpacitynbTopDesc = 1;
+    }
+}
+
+msieversion();
+
 document.onscroll = function () {
     checkHeight();
     checkOpacityChange();
+
 };
