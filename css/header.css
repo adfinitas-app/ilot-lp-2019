@@ -26,6 +26,29 @@
     position: initial;
 }
 
+#col-imgHeader1 {
+    background-image: url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img1-Header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+    z-index: 1;
+}
+
+#title-header {
+    width: 100vw;
+    color: white;
+    font-size: 6vw;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-image: url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Rectangle-Header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+
 @media (max-width: 1050px) {
     #div-don-header {
         text-align: center;
@@ -54,12 +77,23 @@
         height: 100%;
     }
 
-    #col-social-header {
-        display: none !important;
+    #title-header {
+        width: 100vw;
+        color: white;
+        font-size: 6.5vw;
+        position: absolute;
+        bottom: 0px;
+        padding-bottom: 15px;
+        padding-top: 100px !important;
+        text-align: center;
+        background-image: url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Rectangle-Header.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 3;
     }
 
-    .text-header {
-        bottom: 25px!important;
+    #col-social-header {
+        display: none !important;
     }
 
     #col-logo-lilot-header {
@@ -79,9 +113,6 @@
         width: 103vw;
     }
 
-    #span-text-header {
-        font-size: 6vw!important;
-    }
 
     #text-don-header {
         display: table-cell;
