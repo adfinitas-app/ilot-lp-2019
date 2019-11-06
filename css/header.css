@@ -31,7 +31,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 85vh;
+    height: 100vh;
     z-index: 1;
 }
 
@@ -41,7 +41,7 @@
     font-size: 6vw;
     position: absolute;
     bottom: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     text-align: center;
     background-image: url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Rectangle-Header.png");
     background-size: cover;
@@ -106,7 +106,7 @@
         height: 40px;
         width: 90%;
         display: table;
-        margin: 40px auto 10px auto;
+        margin: 55px auto 10px auto;
     }
 
     #top-header {
@@ -135,9 +135,30 @@
 
     #div-don-header {
         text-align: center;
+        right: 20px!important;
         height: 40px;
         width: 90%;
         display: table;
-        margin: 15% auto 10px auto;
+        margin: 16% auto 10px auto;
+    }
+}
+
+@media (max-width: 400px) {
+    #div-don-header {
+        text-align: center;
+        height: 10vw;
+        width: 70%;
+        display: table;
+        margin: 12% auto 10px auto;
+    }
+}
+
+@media (max-width: 300px) {
+    #div-don-header {
+        text-align: center;
+        height: 10vw;
+        width: 70%;
+        display: table;
+        margin: 10% auto 10px auto;
     }
 }

@@ -1,9 +1,13 @@
 function checkHeight() {
     var heightElement = window.scrollY;
     if (heightElement <= 0) {
-        document.getElementById("top-header").style.backgroundColor = "rgba(0, 0, 0, 0)";
-        $(".social-header").css('display', 'block');
-        $("#top-header").css("position", "initial");
+        if (window.innerWidth > 767) {
+            document.getElementById("top-header").style.backgroundColor = "rgba(0, 0, 0, 0)";
+        } else {
+            document.getElementById("top-header").style.backgroundColor = "white";
+        }
+        $(".social-header").css('display', 'none');
+        $("#top-header").css("position", "absolute");
     } else {
         $("#top-header").css("position", "fixed");
         document.getElementById("top-header").style.backgroundColor = "white";
@@ -60,7 +64,13 @@ $( window ).resize(function() {
     if (window.innerWidth < 767) {
         $(".social-header").css('display', 'none');
     } else {
-        $(".social-header").css('display', 'block');
+        var heightElement = window.scrollY;
+
+        if (heightElement <= 0) {
+            $(".social-header").css('display', 'none');
+        } else {
+            $(".social-header").css('display', 'block');
+        }
     }
 });
 
