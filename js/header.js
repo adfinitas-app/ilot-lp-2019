@@ -20,41 +20,50 @@ function checkHeight() {
 }
 
 setInterval(function () {
-    var currentImg = $("#col-imgHeader1").css("background-image");
+    var HeaderImg = $("#col-imgHeader1");
+    var headerFade = $("#headerFade");
+    var currentImg = HeaderImg.css("background-image");
+    var titleHeader = $("#title-header");
 
     if (window.innerWidth > 767) {
         if (currentImg === 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img1-Header.png")') {
-            $("#col-imgHeader1").fadeOut(400, function () {
-                $("#col-imgHeader1").css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img2-Header.jpg")');
-                $("#title-header").html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accompagner vers l'emploi</span>");
+            headerFade.fadeOut(400, function () {
+                console.log("hello");
+                HeaderImg.css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img2-Header.jpg")');
+                console.log("here");
+                titleHeader.html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accompagner vers l'emploi</span>");
+                console.log("dhjbchbqd");
             }).fadeIn(500);
         } else if (currentImg === 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img2-Header.jpg")') {
-            $("#col-imgHeader1").fadeOut(400, function () {
-                $("#col-imgHeader1").css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img3-Header.jpg")');
-                $("#title-header").html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'héberger</span>");
+            headerFade.fadeOut(400, function () {
+                HeaderImg.css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img3-Header.jpg")');
+                titleHeader.html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'héberger</span>");
             }).fadeIn(500);
         } else if (currentImg === 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img3-Header.jpg")') {
-            $("#col-imgHeader1").fadeOut(400, function () {
-                $("#col-imgHeader1").css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img1-Header.png")');
-                $("#title-header").html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accueillir</span>");
+            headerFade.fadeOut(400, function () {
+                HeaderImg.css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img1-Header.png")');
+                titleHeader.html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accueillir</span>");
             }).fadeIn(500);
         }
     } else {
         if (currentImg === 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img1-Header.png")') {
-            $("#col-imgHeader1").fadeOut(400, function () {
-                $("#col-imgHeader1").css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img2-Header.jpg")');
-                $("#title-header").html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accompagner vers l'emploi</span>");
-            }).fadeIn(500);
+            headerFade.fadeOut(400, function () {
+                HeaderImg.css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img2-Header.jpg")');
+            });
+           titleHeader.html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accompagner vers l'emploi</span>");
+            headerFade.fadeIn(500);
         } else if (currentImg === 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img2-Header.jpg")') {
-            $("#col-imgHeader1").fadeOut(400, function () {
-                $("#col-imgHeader1").css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img3-Header.jpg")');
-                $("#title-header").html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'héberger</span>");
-            }).fadeIn(500);
+            headerFade.fadeOut(400, function () {
+                HeaderImg.css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img3-Header.jpg")');
+            });
+           titleHeader.html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'héberger</span>");
+            headerFade.fadeIn(500);
         } else if (currentImg === 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img3-Header.jpg")') {
-            $("#col-imgHeader1").fadeOut(400, function () {
-                $("#col-imgHeader1").css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img1-Header.png")');
-                $("#title-header").html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accueillir</span>");
-            }).fadeIn(500);
+            headerFade.fadeOut(400, function () {
+                HeaderImg.css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img1-Header.png")');
+            });
+           titleHeader.html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accueillir</span>");
+            headerFade.fadeIn(500);
         }
     }
 
