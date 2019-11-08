@@ -101,6 +101,10 @@ a:hover {
     font-size: 1.6vw;
 }
 
+#reduc_don_title {
+    font-size: 1.4vw;
+}
+
 @media(min-width:1600px) {
     .description_column_don {
         height: 300px;
@@ -146,6 +150,9 @@ a:hover {
         font-size: 2vw;
         padding-left: 20px;
     }
+    #reduc_don_title {
+        font-size: 2.2vw;
+    }
     .column_don_don_inside {
         background-color: rgba(93, 80, 75, .77);
     }
@@ -163,6 +170,9 @@ a:hover {
     .reduc_don {
         font-size: 5vw;
         padding-left: 20px;
+    }
+    #reduc_don_title {
+        font-size: 5.5vw;
     }
     #column_don_don_left, #column_don_don_center, #column_don_don_right{
         padding-left: 15px;

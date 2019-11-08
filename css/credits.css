@@ -7,7 +7,7 @@
     top: 0px;
     left: 0px;
     background-color: rgba(26, 24, 27, 0.7);
-    padding-top: 50px;
+    padding-top: 200px;
     display: none;
     opacity: 1;
 }
@@ -15,8 +15,8 @@
 #credits_div {
     position: relative;
     width: 850px;
-    min-height: 600px;
-    height: 700px;
+    min-height: 250px;
+    height: 250px;
     overflow: hidden;
     overflow-y: scroll;
     margin: auto;
@@ -27,6 +27,7 @@
     overflow-x: hidden;
     z-index: 800;
     padding: 100px;
+    padding-top: 50px;
 }
 
 .title_credits {

@@ -123,8 +123,8 @@
                             </div>
                         </div>
                         <br>
-                        <div style="font-size: 15px;" class="row text-left source_description hide_768">
-                            <div class="col-sm-offset-1 col-lg-offset-3 col-sm-12 col-lg-4 dosis">
+                        <div style="font-size: 15px;" class="row text-right source_description hide_768">
+                            <div class="col-sm-offset-1 col-lg-offset-3 col-sm-12 col-lg-4 dosis" style="padding-right: 50px;">
                                 Source : Chiffres Ministère de la Justice 2O18<br><br>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 overpass">
-                        <br><br>
+                        <br><br class="hide_768">
                         <div class="row">
                             <div class="col-sm-12 col-lg-10" style="display: flex; align-items: center;">
                                 <span class="text_bottom_description">Depuis 1969, l'Îlot favorise la reconstruction et
@@ -592,7 +592,7 @@
         <div class="row reduc_don" style="min-height: 15vh;">
             <div class="col-lg-10 col-lg-offset-1 text-left blanc_pur bold overpass">
                 <br>
-                <span style="font-size: 1.4vw">75% de réduction d'impôt :</span><br>
+                <span id="reduc_don_title">75% de réduction d'impôt :</span><br>
                 - Soit au titre de l'impôt sur le revenu dans la limite de 546 € et au-delà à 66%, dans la limite de 20%
                 du revenu imposable<br>
                 - Soit au titre de l'impôt sur la fortune immobilière (IFI) dans la limite de 50 000 €. Pour effectuer un
@@ -766,7 +766,7 @@
                     style="text-decoration: underline;">https://agirpourlareinsertion.ilot.asso.fr/</span>, édité par l’association l’Îlot,
                 reconnue
                 d’utilité publique, membre du comitéde la charte et habilitée à recevoir des donations, des legs et des
-                assurances-vie.<br><br>
+                assurances-vie.<br>
                 Son siège social est situé à Paris :<br>
                 88 boulevard de la Villette<br>
                 75019 Paris<br>
@@ -774,12 +774,12 @@
                 <span class="vert_code" style="text-decoration: underline;">maisons-accueil@ilot.asso.fr</span>
                 <br>
                 SIREN : 784 753 287 00209<br>
-                <span class="vert_code bold" style="font-size: 30px;"><br>DIRECTEUR DE LA PUBLICATION :</span>
+                <span class="vert_code bold" style="font-size: 30px;">DIRECTEUR DE LA PUBLICATION :</span>
                 <br>
-                Hubert de Gabory, Président de l’association.<br><br>
-                <span class="vert_code bold" style="font-size: 30px;"><br>HÉBERGEMENT DU SITE :</span><br>
+                Hubert de Gabory, Président de l’association.<br>
+                <span class="vert_code bold" style="font-size: 30px;">HÉBERGEMENT DU SITE :</span><br>
                 Ce site est hébergé par Cloudcannon.<br>
-                <span class="vert_code bold" style="font-size: 30px;"><br>DROITS DE PROPRIÉTÉ INTELLECTUELLE</span>
+                <span class="vert_code bold" style="font-size: 30px;">DROITS DE PROPRIÉTÉ INTELLECTUELLE</span>
                 <br>
                 Le présent site est la
                 propriété de l’association l’Îlot, qui en est l'auteur au sens des articles L. 111.1 et suivants du Code
@@ -792,13 +792,13 @@
                 dispositions ci-dessus, toute reproduction, représentation, utilisation ou modification, par quelque
                 procédé que ce soit et sur quelque support que ce soit, de tout ou partie du site, de tout ou partie des
                 contenus qui le composent, sans avoir obtenu l'autorisation préalable de l’association l’Îlot, est
-                strictement interdite et constitue un délit de contrefaçon.<br><br>
-                <span class="vert_code bold" style="font-size: 30px;"><br>CRÉDITS PHOTOGRAPHIQUES</span><br>
+                strictement interdite et constitue un délit de contrefaçon.<br>
+                <span class="vert_code bold" style="font-size: 30px;">CRÉDITS PHOTOGRAPHIQUES</span><br>
                 Sauf mention
                 contraire, toutes les photographies du site sont la propriété de l'Îlot ou des photographes Emmanuel
                 Simiand et Inanis. Toute reproduction est interdite.<br>
                 © L'Îlot<br>
-                <span class="vert_code bold" style="font-size: 30px;"><br>UTILISATION DES DONNÉES
+                <span class="vert_code bold" style="font-size: 30px;">UTILISATION DES DONNÉES
                     PERSONNELLES</span><br>
                 Aucune
                 information personnelle n'est collectée à votre insu. Aucune information personnelle n'est cédée à des
@@ -807,7 +807,7 @@
                 applicables et notamment de la Loi "Informatique et Libertés" n°78-17 du 6 janvier 1978. Notre politique
                 de protection des données personnelles vous renseigne en détail sur les finalités de notre collecte des
                 données et des fondements juridiques sur lesquels celle-ci s'appuie.<br>
-                <span class="vert_code bold" style="font-size: 30px;"><br>LIENS HYPERTEXTES</span><br>
+                <span class="vert_code bold" style="font-size: 30px;">LIENS HYPERTEXTES</span><br>
 
                 La mise en place
                 d'un lien hypertexte vers notre site nécessite une autorisation préalable écrite de l’association
@@ -816,7 +816,7 @@
                 site <span class="vert_code" style="text-decoration: underline;">https://agirpourlareinsertion.ilot.asso.fr/</span> et ne peut
                 supporter aucune responsabilité sur le contenu disponible sur ces sites
                 ou à partir de ces sites.<br>
-                <span class="vert_code bold" style="font-size: 30px;"><br>RESPONSABILITÉ FACE AUX LIENS VERS D’AUTRES
+                <span class="vert_code bold" style="font-size: 30px;">RESPONSABILITÉ FACE AUX LIENS VERS D’AUTRES
                     SITES</span>
                 <br>
                 Le site Internet de
@@ -825,7 +825,7 @@
                 n’engagent pas la responsabilité de l’association qui ne peut être tenue pour responsable des contenus.
                 Ils ne visent qu’à permettre à l’internaute d’accéder plus facilement à d’autres ressources
                 documentaires sur le sujet consulté.<br>
-                <span class="vert_code bold" style="font-size: 30px;"><br>DONNÉES STATISTIQUES ET TRAÇABILITÉ</span>
+                <span class="vert_code bold" style="font-size: 30px;">DONNÉES STATISTIQUES ET TRAÇABILITÉ</span>
                 <br>
                 Dans le but d’améliorer
                 l’ergonomie, la navigation, le contenu éditorial et le service aux internautes, le gestionnaire des
@@ -838,7 +838,7 @@
                 désactiver l’utilisation des cookies dans les paramètres du navigateur.En utilisant ce site internet,
                 vous consentez expressément au traitement de vos données nominatives par Google dans les conditions et
                 pour les finalités décrites ci-dessus.<br>
-                <span class="vert_code bold" style="font-size: 30px;"><br>COOKIES</span>
+                <span class="vert_code bold" style="font-size: 30px;">COOKIES</span>
                 <br>
                 Lors de votre visite sur notre site, nous sommes susceptibles d'implanter un cookie dans votre
                 ordinateur. Un cookie est un petit bloc de données envoyé à votre navigateur par un serveur web et
@@ -855,22 +855,22 @@
                 nécessitant l’utilisation de cookies.Si votre navigateur est configuré de manière à refuser l’ensemble
                 des cookies, vous ne pourrez pas profiter d’une partie de nos services. Afin de gérer les cookies au
                 plus près de vos attentes nous vous invitons à paramétrer votre navigateur en tenant compte de la
-                finalité des cookies.<br><br>
-                <b>Internet Explorer</b><br><br>
+                finalité des cookies.<br>
+                <b>Internet Explorer</b><br>
                 Dans Internet Explorer, cliquez sur le bouton Outils, puis sur
                 Options Internet.<br>
                 Sous l’onglet Général, sous Historique de navigation, cliquez sur Paramètres.<br>Cliquez sur
-                le bouton Afficher les fichiers.<br><br>
-                <b>Firefox</b><br><br>
+                le bouton Afficher les fichiers.<br>
+                <b>Firefox</b><br>
                 Allez dans l’onglet Outils du navigateur puis sélectionnez le menu Options.<br>
                 Dans la fenêtre qui
-                s’affiche, choisissez Vie privée et cliquez sur Affichez les cookies.<br><br>
-                <b>Safari</b><br><br>
+                s’affiche, choisissez Vie privée et cliquez sur Affichez les cookies.<br>
+                <b>Safari</b><br>
                 Dans votre navigateur,
                 choisissez le menu Édition > Préférences.<br>
                 Cliquez sur Sécurité.<br>
-                Cliquez sur Afficher les cookies.<br><br>
-                <b>Google Chrome</b><br><br>
+                Cliquez sur Afficher les cookies.<br>
+                <b>Google Chrome</b><br>
                 Cliquez sur l’icône du menu Outils.<br>
                 Sélectionnez Options.<br>
                 Cliquez sur l’onglet Options avancées et
@@ -890,7 +890,7 @@
                     <img src="assets/Fermeture.png">
                 </div>
                 <span class="vert_code bold"
-                    style="font-size: 30px;"><br>CRÉDITS PHOTOGRAPHIQUES</span><br>
+                    style="font-size: 30px;">CRÉDITS PHOTOGRAPHIQUES</span><br>
                 Sauf mention
                 contraire, toutes les photographies du site sont la propriété de l'Îlot ou des photographes Emmanuel
                 Simiand et Inanis. Toute reproduction est interdite.<br>
