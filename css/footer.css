@@ -41,6 +41,9 @@
 }
 
 
+.footer_mob {
+    padding-left: 30px;
+}
 
 @media (max-width: 620px) {
     #graph-img {
@@ -126,6 +129,10 @@
 }
 
 @media (max-width: 767px) {
+    .footer_mob {
+        padding-left: 15px!important;
+    }
+
     #DEC-footer {
         display: block;
         margin: 40px auto 0 auto;
@@ -137,6 +144,10 @@
 
     #footer-left-desc {
         padding-left: 15px;
+    }
+
+    .last_text_footer {
+        padding-left: 0px!important;
     }
 
     #crooked-box {
