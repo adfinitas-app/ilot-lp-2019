@@ -29,17 +29,17 @@ setInterval(function () {
         if (currentImg === 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img1-Header.png")') {
             headerFade.fadeOut(400, function () {
                 console.log("hello");
-                HeaderImg.css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img2-Header.jpg")');
+                HeaderImg.css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img3-Header.jpg")');
                 console.log("here");
-                titleHeader.html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accompagner vers l'emploi</span>");
+                titleHeader.html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'héberger</span>");
                 console.log("dhjbchbqd");
             }).fadeIn(500);
-        } else if (currentImg === 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img2-Header.jpg")') {
-            headerFade.fadeOut(400, function () {
-                HeaderImg.css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img3-Header.jpg")');
-                titleHeader.html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'héberger</span>");
-            }).fadeIn(500);
         } else if (currentImg === 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img3-Header.jpg")') {
+            headerFade.fadeOut(400, function () {
+                HeaderImg.css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img2-Header.jpg")');
+                titleHeader.html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accompagner vers l'emploi</span>");
+            }).fadeIn(500);
+        } else if (currentImg === 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img2-Header.jpg")') {
             headerFade.fadeOut(400, function () {
                 HeaderImg.css("background-image", 'url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img1-Header.png")');
                 titleHeader.html("<br>Contre la récidive, prenons la peine <br /><span class='uppercase'>d'accueillir</span>");

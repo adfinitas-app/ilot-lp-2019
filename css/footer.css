@@ -116,6 +116,11 @@
     #logo-footer {
         margin-left: 0px!important;
     }
+
+    #logo-footer-img {
+        width: 250px!important;
+    }
+
     #footer-left-desc {
         padding-left: 30%;
     }
