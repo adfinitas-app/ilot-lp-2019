@@ -2,15 +2,18 @@ function checkHeight() {
     var heightElement = window.scrollY;
     if (heightElement <= 0) {
         if (window.innerWidth > 767) {
+            $("#logo-lilot-header").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Logo-lilotBlanc.png");
             document.getElementById("top-header").style.backgroundColor = "rgba(0, 0, 0, 0)";
         } else {
             document.getElementById("top-header").style.backgroundColor = "white";
+            $("#logo-lilot-header").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Logo-lilot.png");
         }
         $(".social-header").css('display', 'none');
         $("#top-header").css("position", "absolute");
     } else {
         $("#top-header").css("position", "fixed");
         document.getElementById("top-header").style.backgroundColor = "white";
+        $("#logo-lilot-header").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Logo-lilot.png");
         if (window.innerWidth > 767) {
             $(".social-header").css('display', 'block');
         } else {
@@ -70,6 +73,7 @@ setInterval(function () {
 }, 5000);
 
 $( window ).resize(function() {
+    checkHeight();
     if (window.innerWidth < 767) {
         $(".social-header").css('display', 'none');
     } else {
