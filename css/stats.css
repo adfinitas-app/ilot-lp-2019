@@ -96,15 +96,15 @@
     }
 
     #TEM-Vert {
-        background-color: rgba(00, 156, 155, 0.7) !important;
+        background-color: rgba(00, 156, 155, 0.75) !important;
     }
 
     #TEM-Beige {
-        background-color: rgba(147, 128, 122, 0.7) !important;
+        background-color: rgba(147, 128, 122, 0.75) !important;
     }
 
     .div-text-desc {
-        background-color: rgba(18, 49, 109, 0.7);
+        background-color: rgba(18, 49, 109, 0.75);
         height: 100%;
         width: 100%;
         z-index: 2;
