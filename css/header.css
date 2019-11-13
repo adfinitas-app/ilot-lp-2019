@@ -26,7 +26,7 @@
 }
 
 #col-don-Header {
-    padding-right: 2.7vw;
+    padding-right: 40px;
 }
 
 #logo-lilot-header {
@@ -35,7 +35,6 @@
 }
 
 #top-header {
-    width: 102vw;
     position: initial;
 }
 
@@ -75,9 +74,6 @@
         vertical-align: middle;
         font-size: 17px;
         font-weight: 900;
-    }
-    #top-header {
-        width: 102vw;
     }
 }
 
@@ -141,14 +137,12 @@
     #div-don-header {
         text-align: center;
         height: 50px;
-        width: 90%;
+        width: 100%;
         display: table;
         margin: 55px 0px 10px;
     }
 
-    #top-header {
-        width: 103vw;
-    }
+
 
 
     #text-don-header {
@@ -159,10 +153,10 @@
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 500px) {
     #col-don-Header {
         padding-top: 20px;
-        padding-right: 30px;
+        padding-right: 20px;
     }
 
     #logo-lilot-header {
@@ -171,17 +165,15 @@
         height: 100%;
     }
 
-    #top-header {
-        width: 105vw;
-    }
+
 
     #div-don-header {
         text-align: center;
         right: 20px!important;
         height: 50px;
-        width: 90%;
+        width: 100%;
         display: table;
-        margin: 16% 5px 10px;
+        margin: 8% 0px 10px;
     }
 }
 
@@ -191,7 +183,7 @@
         height: 10vw;
         width: 100%;
         display: table;
-        margin: 12% -5px 5px;
+        margin: 12% 0px 5px;
     }
 }
 
@@ -201,6 +193,6 @@
         height: 10vw;
         width: 100%;
         display: table;
-        margin: 10% -5px 5px;
+        margin: 10% 0px 5px;
     }
 }
