@@ -12,7 +12,7 @@
 
 #source {
     text-align: left;
-    padding-left: 110px!important;
+    padding-left: 7.5vw!important;
     font-size: 15px;
 }
 
@@ -70,6 +70,14 @@
     padding: 0 40px 0 15px !important;
 }
 
+@media (min-width: 1609px) {
+    #source {
+        text-align: left;
+        padding-left: 9vw!important;
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 1199px) {
     .desc-col-left {
         margin-top: 20px;
@@ -81,6 +89,11 @@
         margin-top: 20px;
         text-align: center;
         padding: 0 0 0 0 !important;
+    }
+    #source {
+        text-align: center;
+        padding-left: 0vw!important;
+        font-size: 15px;
     }
 }
 
@@ -149,9 +162,10 @@
     .bold-desc {
         font-size: 3.4vh;
     }
-
     #source {
-        padding-left: 40px!important;
+        text-align: center;
+        padding-left: 0vw!important;
+        font-size: 15px;
     }
 }
 
