@@ -1,198 +1,200 @@
-/*****  CSS Header  *****/
+#header {
+    position: relative;
+    height: 100vh;
+    min-height: 720px;
+    background-color: rgba(189, 215, 200, .3);
+    padding: 127px 0 0;
+}
 
-#div-don-header {
+.navigation {
+    position: fixed;
+    z-index: 998;
+    width: 100%;
+    padding: 20px 50px;
+    transition: .25s;
+}
+
+.socials {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0;
+    display: none;
+    transition: .25s;
+}
+.socials .social-link {
+    margin: 0 5px;
+}
+.socials .social-link img {
+    width: 50px;
+}
+
+.logo img {
+    height: 87px;
+    transition: .25s;
+}
+
+.btn.btn-donate {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    height: 60px;
-    width: 300px;
-    display: table;
-    margin: 40px 0 20px 0;
-    right: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E94A34;
+    color: white;
+    top: 35px;
+    right: 50px;
+    border-radius: 0;
+    min-width: 250px;
+    transition: .25s;
+    font-family: "Overlock", sans-serif;
 }
-
-.btSubTitle {
-    display: block;
-    margin-bottom: -1.2em;
+.btn.btn-donate:hover {
+    background-color: #d8402b; 
 }
-
-.subtitleText {
+.btn.btn-donate .top {
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn.btn-donate .bottom {
     font-size: 12px;
 }
 
-#text-don-header {
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 20px;
-    font-weight: 900;
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
 }
 
-#col-don-Header {
-    padding-right: 40px;
+#header h1 {
+    font-family: "Overpass", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#header h1 span {
+    color: #029C9B;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
-#logo-lilot-header {
-    padding: 20px;
+center{
+    text-align: center;
+}
+.videowrapper { 
+    float: none;
+    clear: both;
+    width: 700px;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin: 0 auto;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    max-height: 400px;
+    box-shadow: 0 50px 25px -30px rgba(0, 0, 0, .5);
+}
+
+.no-mobile {
+    display: block;
+}
+.mobile {
+    display: none;
+}
+.arrow-down {
+    position: absolute;
+    bottom: 20px;
+    margin: 0 auto;
+    height: 40px;
     width: 100%;
 }
 
-#top-header {
-    position: initial;
-}
-
-#col-imgHeader1 {
-    background-image: url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img1-Header.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    z-index: 1;
-}
-
-#title-header {
-    width: 100vw;
-    color: white;
-    font-size: 6vw;
-    position: absolute;
-    bottom: 0px;
-    padding-bottom: 0px;
+#subheader h2 {
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
     text-align: center;
-    background-image: url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Rectangle-Header.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 3;
+    color: #A58E89;
+    line-height: 40px;
+}
+#subheader h2 span {
+    color: #E94A34;
+    text-transform: uppercase;
 }
 
-@media (max-width: 1050px) {
-    #div-don-header {
-        text-align: center;
-        height: 50px;
-        width: 200px;
-        display: table;
-        margin: 40px 0 20px 20px;
+@media (max-width: 992px) {
+    .navigation {
+        background-color: white;
+        padding: 10px 20px;
+    }
+    
+    .logo img {
+        height: 57px;
     }
 
-    #text-don-header {
-        display: table-cell;
-        vertical-align: middle;
-        font-size: 17px;
-        font-weight: 900;
+    .socials {
+        top: 18px;
+        display: none;
     }
-}
-
-@media (max-width: 767px) {
-
-    #col-imgHeader1 {
-        background-image: url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/img1-Header.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top 80px center;
-        height: 100vh;
-        z-index: 1;
+    .socials .social-link img {
+        width: 45px;
     }
 
-    #text-don-header {
-        display: table-cell;
-        vertical-align: middle;
+    .btn.btn-donate {
+        min-width: 170px;
+        top: 12.5px;
+        right: 10px;
+    }
+    .btn.btn-donate .top {
         font-size: 16px;
-        font-weight: 900;
+    }
+    .btn.btn-donate .bottom {
+        font-size: 10px;
     }
 
-    #logo-lilot-header {
-        width: 80%;
-        min-width: 150px!important;
-        height: 100%;
+    #header h1 {
+        padding: 0 10px;
+        font-size: 30px;
+    }
+    #header h1 span {
+        font-size: 30px;
     }
 
-    .btSubTitle {
+    #subheader h2 {
+        font-size: 27px;
+    }
+    #subheader h2 span {
+        font-size: 27px;
+    }
+
+    .no-mobile {
+        display: none;
+    }
+    .mobile {
         display: block;
-        margin-bottom: -0.7em;
     }
-
-    .subtitleText {
-        font-size: 9px;
-    }
-
-    #title-header {
-        width: 100vw;
-        color: white;
-        font-size: 6.5vw;
-        position: absolute;
-        bottom: 0px;
-        padding-bottom: 15px;
-        padding-top: 100px !important;
-        text-align: center;
-        background-image: url("https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/Rectangle-Header.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        z-index: 3;
-    }
-
-    #col-social-header {
-        display: none !important;
-    }
-
-    #col-logo-lilot-header {
-        display: flex;
-        justify-content: center;
-    }
-
-    #div-don-header {
-        text-align: center;
-        height: 50px;
-        width: 100%;
-        display: table;
-        margin: 55px 0px 10px;
-    }
-
-
-
-
-    #text-don-header {
-        display: table-cell;
-        vertical-align: middle;
-        font-size: 16px;
-        font-weight: bold;
+    .arrow-down {
+        bottom: 40px;
     }
 }
 
-@media (max-width: 500px) {
-    #col-don-Header {
-        padding-top: 20px;
-        padding-right: 20px;
-    }
-
-    #logo-lilot-header {
-        width: 80%;
-        min-width: 150px!important;
-        height: 100%;
-    }
-
-
-
-    #div-don-header {
-        text-align: center;
-        right: 20px!important;
-        height: 50px;
+@media (max-width: 720px) {
+    .video-header {
+        margin: 50px 0 0;
         width: 100%;
-        display: table;
-        margin: 8% 0px 10px;
+        padding: 0 20px;
     }
-}
-
-@media (max-width: 400px) {
-    #div-don-header {
-        text-align: center;
-        height: 10vw;
+    .videowrapper {
         width: 100%;
-        display: table;
-        margin: 12% 0px 5px;
-    }
-}
-
-@media (max-width: 300px) {
-    #div-don-header {
-        text-align: center;
-        height: 10vw;
-        width: 100%;
-        display: table;
-        margin: 10% 0px 5px;
+        /* margin: 0 10px; */
     }
 }

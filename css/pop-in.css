@@ -10,6 +10,7 @@
     padding-top: 50px;
     display: none;
     opacity: 1;
+    z-index: 999;
 }
 
 #pop_in_div {
@@ -28,7 +29,6 @@
     box-shadow: 0 0 10px rgb(26, 24, 27);
     padding-top: 275px;
     overflow-x: hidden;
-    z-index: 800;
 }
 
 .title_pop_in {
