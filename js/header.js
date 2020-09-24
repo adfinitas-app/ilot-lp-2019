@@ -19,3 +19,22 @@ $(window).scroll(function() {
     }
   }
 });
+
+$(document).ready(function() {
+  $("a[href*='#']:not([href='#'])").click(function() {
+      if (
+          location.hostname == this.hostname &&
+          this.pathname.replace(/^\//, "") == location.pathname.replace(/^\//, "")
+      ) {
+          var anchor = $(this.hash);
+          anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) + "]");
+          if (anchor.length) {
+              console.log(anchor);
+              console.log(anchor.offset().top);
+              $("html, body").animate({
+                  scrollTop: anchor.offset().top - $('.navigation').innerHeight()
+              }, 1500);
+          }
+      }
+  });
+});

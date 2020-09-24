@@ -112,9 +112,8 @@ center{
     display: none;
 }
 .arrow-down {
-    position: absolute;
-    bottom: 20px;
-    margin: 0 auto;
+    /* position: absolute; */
+    margin: 30px auto 0;
     height: 40px;
     width: 100%;
 }
