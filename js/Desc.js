@@ -193,7 +193,5 @@ function msieversion()
 msieversion();
 
 document.onscroll = function () {
-    checkHeight();
     checkOpacityChange();
-
 };
