@@ -45,11 +45,6 @@
     padding-left: 30px;
 }
 
-#DEC-footer {
-    height: 80px;
-    width: 80px;
-}
-
 @media (max-width: 620px) {
     #graph-img {
         width: 100%;
