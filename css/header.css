@@ -74,11 +74,12 @@
     font-family: "Overpass", sans-serif;
     font-weight: bold;
     text-align: center;
+    font-size: 34px;
     margin: 0 0 10px;
 }
 #header h1 span {
     color: #029C9B;
-    font-size: 40px;
+    font-size: 38px;
     text-transform: uppercase;
 }
 
