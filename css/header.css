@@ -188,7 +188,7 @@ center{
         display: block;
     }
     .arrow-down {
-        bottom: 40px;
+        margin: 15% auto 0;
     }
 }
 
