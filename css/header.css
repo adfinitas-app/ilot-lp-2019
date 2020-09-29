@@ -74,12 +74,12 @@
     font-family: "Overpass", sans-serif;
     font-weight: bold;
     text-align: center;
-    font-size: 24px;
+    font-size: 32px;
     margin: 0 0 10px;
 }
 #header h1 span {
     color: #029C9B;
-    font-size: 30px;
+    font-size: 36px;
     text-transform: uppercase;
 }
 
@@ -89,7 +89,7 @@ center{
 .videowrapper { 
     float: none;
     clear: both;
-    width: 500px;
+    width: 560px;
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 25px;
