@@ -203,3 +203,10 @@ center{
         /* margin: 0 10px; */
     }
 }
+
+.rs-img {
+    transition: .20s;
+}
+.rs-img:hover {
+    opacity: 0.9;
+}
