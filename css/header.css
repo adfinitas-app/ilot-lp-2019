@@ -204,6 +204,10 @@ center{
     }
 }
 
+.social-link:hover, .social-link:focus {
+    text-decoration: none;
+}
+
 .rs-img {
     transition: .20s;
 }
