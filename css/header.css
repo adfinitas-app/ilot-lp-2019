@@ -127,13 +127,17 @@ center{
     transform: scale(1.1)
 }
 
-#subheader h2 {
+#subheader h2, #subheader h2 .bigger {
     font-family: "Dosis", sans-serif;
     font-weight: bold;
     text-align: center;
     color: #A58E89;
     line-height: 40px;
     font-size: 36px;
+    text-transform: none;
+}
+#subheader h2 .bigger {
+    font-size: 40px;
 }
 #subheader h2 span {
     color: #E94A34;
