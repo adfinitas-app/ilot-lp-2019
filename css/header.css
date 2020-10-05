@@ -91,8 +91,8 @@ center{
 .videowrapper { 
     float: none;
     clear: both;
-    width: calc(40vw);
-    max-width: 720px;
+    width: calc(50vw);
+    max-width: 850px;
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 25px;
@@ -105,8 +105,8 @@ center{
     left: 0;
     width: 100%;
     height: 100%;
-    max-width: 700px;
-    max-height: 400px;
+    max-width: 850px;
+    max-height: 100%;
     box-shadow: 0 50px 25px -30px rgba(0, 0, 0, .5);
 }
 
@@ -229,23 +229,9 @@ center{
 }
 
 @media (min-width: 992px) {
-    /* .videowrapper { 
-        width: 720px;
-    } */
+
 }
 
 @media (min-width: 1200px) {
-    /* .videowrapper { 
-        width: 720px;
-    } */
-    .videowrapper iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        max-width: 700px;
-        max-height: 400px;
-        box-shadow: 0 50px 25px -30px rgba(0, 0, 0, .5);
-    }
+
 }
