@@ -72,14 +72,16 @@
 
 #header h1 {
     font-family: "Overpass", sans-serif;
-    font-weight: bold;
+    font-weight: 400;
     text-align: center;
     font-size: 32px;
     margin: 0 0 10px;
+    color: #000000;
 }
 #header h1 span {
     color: #029C9B;
     font-size: 36px;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
@@ -89,7 +91,8 @@ center{
 .videowrapper { 
     float: none;
     clear: both;
-    width: 560px;
+    width: calc(40vw);
+    max-width: 720px;
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 25px;
@@ -130,6 +133,7 @@ center{
     text-align: center;
     color: #A58E89;
     line-height: 40px;
+    font-size: 36px;
 }
 #subheader h2 span {
     color: #E94A34;
@@ -180,15 +184,8 @@ center{
     #subheader h2 span {
         font-size: 27px;
     }
-
-    .no-mobile {
-        display: none;
-    }
-    .mobile {
-        display: block;
-    }
     .arrow-down {
-        margin: 15% auto 0;
+        margin: 5% auto 0;
     }
 }
 
@@ -202,6 +199,15 @@ center{
         width: 100%;
         /* margin: 0 10px; */
     }
+    .arrow-down {
+        margin: 15% auto 0;
+    }
+    .no-mobile {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
 }
 
 .social-link:hover, .social-link:focus {
@@ -213,4 +219,33 @@ center{
 }
 .rs-img:hover {
     opacity: 0.9;
+}
+
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+    /* .videowrapper { 
+        width: 720px;
+    } */
+}
+
+@media (min-width: 1200px) {
+    /* .videowrapper { 
+        width: 720px;
+    } */
+    .videowrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        max-width: 700px;
+        max-height: 400px;
+        box-shadow: 0 50px 25px -30px rgba(0, 0, 0, .5);
+    }
 }
