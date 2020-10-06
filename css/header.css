@@ -72,7 +72,7 @@
 
 #header h1 {
     font-family: "Overpass", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
     font-size: 32px;
     margin: 0 0 10px;
@@ -119,8 +119,8 @@ center{
 .arrow-down {
     /* position: absolute; */
     margin: 30px auto 0;
-    height: 40px;
-    width: 105px;
+    height: 50px;
+    width: 120px;
     transition: .20s;
 }
 .arrow-down:hover {
@@ -243,5 +243,12 @@ center{
     }
     #header h1 span {
         font-size: 44px;
+    }
+    .arrow-down {
+        /* position: absolute; */
+        margin: 30px auto 0;
+        height: 60px;
+        width: 140px;
+        transition: .20s;
     }
 }
