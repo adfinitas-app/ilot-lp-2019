@@ -81,7 +81,7 @@
 #header h1 span {
     color: #029C9B;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -117,7 +117,6 @@ center{
     display: none;
 }
 .arrow-down {
-    /* position: absolute; */
     margin: 30px auto 0;
     height: 50px;
     width: 120px;
@@ -245,7 +244,6 @@ center{
         font-size: 42px;
     }
     .arrow-down {
-        /* position: absolute; */
         margin: 30px auto 0;
         height: 60px;
         width: 140px;
