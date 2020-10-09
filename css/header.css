@@ -150,6 +150,10 @@ center{
     text-transform: uppercase;
 }
 
+.p-0 {
+    padding: 0 !important;
+}
+
 @media (max-width: 992px) {
     .navigation {
         background-color: white;
