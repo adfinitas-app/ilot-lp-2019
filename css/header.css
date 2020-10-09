@@ -126,7 +126,7 @@ center{
     margin-right: auto; 
     width: 140px;
     height: 50px;
-    bottom: 40px;
+    bottom: 65px;
     transition: .20s;
 }
 .arrow-down:hover {
@@ -256,8 +256,5 @@ center{
     }
     #header h1 span {
         font-size: 42px;
-    }
-    .arrow-down {
-        bottom: 20px;
     }
 }
