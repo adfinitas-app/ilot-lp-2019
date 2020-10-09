@@ -1,7 +1,7 @@
 #header {
     position: relative;
     height: 100vh;
-    /* min-height: 720px; */
+    min-height: 680px;
     background-color: rgba(189, 215, 200, .3);
     padding: 87px 0 0;
 }
@@ -91,7 +91,7 @@ center{
 .videowrapper { 
     float: none;
     clear: both;
-    width: calc(50vw);
+    width: calc(45vw);
     max-width: 850px;
     position: relative;
     padding-bottom: 56.25%;
@@ -109,6 +109,8 @@ center{
     max-height: 100%;
     box-shadow: 0 50px 25px -30px rgba(0, 0, 0, .5);
 }
+
+
 
 .no-mobile {
     display: block;
