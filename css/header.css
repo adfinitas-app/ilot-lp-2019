@@ -1,7 +1,7 @@
 #header {
     position: relative;
     height: 100vh;
-    min-height: 680px;
+    min-height: 640px;
     background-color: rgba(189, 215, 200, .3);
     padding: 87px 0 0;
 }
