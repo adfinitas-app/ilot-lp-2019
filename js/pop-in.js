@@ -20,7 +20,7 @@
                 $("#number_pop_in_don").html("9O");
                 $("#number_pop_in_don_reduce").html("23€*");
                 $("#description_pop_in_don").html("Permet à une personne de bénéficier de deux jours d’accompagnement dans l’un de nos centres d’hébergement.<div style='padding-top: 6px'></div>");
-                $("#pop_in_div").css("background-image", "url(assets/pop_in_3.png)");
+                $("#pop_in_div").css("background-image", "url(assets/pop_in_3.jpg)");
                 $("#div_change_bg_pop_in").css("background-color", "rgba(255, 255, 255, 0.95)");
                 $("#link_don_pop-in").attr("href", "https://donner.ilot.asso.fr/b?cid=4&amount=9000&frequency=once&utm_medium=web&utm_source=landingpage&utm_campaign=fa2019&utm_content=heberger");
             }
@@ -31,7 +31,7 @@
                 $("#number_pop_in_don_reduce").html("43€*");
                 $("#description_pop_in_don").html("Permet à une personne de bénéficier d’une semaine d’accompagnement dans nos Ateliers d’Insertion d’Amiens.<div style='padding-top: 6px'></div>");
                 $("#pop_in_div").css({
-                    backgroundImage: "url(assets/pop_in_2.png)",
+                    backgroundImage: "url(assets/pop_in_2.jpg)",
                     backgroundPosition: "0 -40px"
                 });
                 $("#div_change_bg_pop_in").css("background-color", "rgba(255, 255, 255, 0.95)");
