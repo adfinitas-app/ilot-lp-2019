@@ -199,6 +199,7 @@ center{
     #subheader h2 {
         font-size: 27px;
         line-height: 32px;
+        font-weight: 900;
     }
     #subheader h2 span {
         font-size: 27px;
