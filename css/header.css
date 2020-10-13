@@ -55,16 +55,17 @@
     min-width: 300px;
     transition: .25s;
     font-family: "Overlock", sans-serif;
+    padding: 6px;
 }
 .btn.btn-donate:hover {
     background-color: #d8402b; 
 }
 .btn.btn-donate .top {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
 }
 .btn.btn-donate .bottom {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .container-center {
