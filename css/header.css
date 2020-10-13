@@ -52,7 +52,7 @@
     color: white;
     right: 50px;
     border-radius: 0;
-    min-width: 250px;
+    min-width: 300px;
     transition: .25s;
     font-family: "Overlock", sans-serif;
 }
@@ -172,6 +172,10 @@ center{
         padding: 10px 20px;
     }
     
+    .logo {
+        width: auto;
+    }
+
     .logo img {
         height: 57px;
     }
@@ -267,4 +271,9 @@ center{
     #header h1 span {
         font-size: 42px;
     }
+}
+
+.px-2 {
+    padding-left: 20px;
+    padding-right: 20px;
 }
