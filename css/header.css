@@ -10,13 +10,15 @@
     position: fixed;
     z-index: 998;
     width: 100%;
-    padding: 10px 50px;
+    padding: 20px 50px;
     transition: .25s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .socials {
     position: absolute;
-    top: 32.5px;
     left: 50%;
     transform: translate(-50%, 0);
     opacity: 0;
@@ -30,8 +32,12 @@
     width: 50px;
 }
 
+.logo {
+    width: 15%;
+}
+
 .logo img {
-    height: 87px;
+    width: 100%;
     transition: .25s;
 }
 
@@ -44,7 +50,6 @@
     justify-content: center;
     background-color: #E94A34;
     color: white;
-    top: 25px;
     right: 50px;
     border-radius: 0;
     min-width: 250px;
@@ -212,7 +217,7 @@ center{
         font-size: 27px;
     }
     .arrow-down {
-        bottom: 150px;
+        bottom: 100px;
     }
     .header-title-container {
         position: relative;
