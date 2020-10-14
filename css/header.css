@@ -155,7 +155,7 @@ center{
 }
 #subheader h2 .bigger {
     font-size: 40px;
-    font-weight: 600;
+    line-height: 65px;
 }
 #subheader h2 span {
     color: #E94A34;
