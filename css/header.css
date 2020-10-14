@@ -87,7 +87,7 @@
 #header h1 span {
     color: #029C9B;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
@@ -123,8 +123,6 @@ center{
     box-shadow: 0 50px 25px -30px rgba(0, 0, 0, .5);
 }
 
-
-
 .no-mobile {
     display: block;
 }
@@ -157,6 +155,7 @@ center{
 }
 #subheader h2 .bigger {
     font-size: 40px;
+    font-weight: 600;
 }
 #subheader h2 span {
     color: #E94A34;
