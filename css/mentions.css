@@ -74,3 +74,14 @@
         font-size: 4vw;
     }
 }
+
+
+.hyper-link {
+    color: #2e9a97;
+}
+.hyper-link:hover {
+    color: #278a87;
+}
+.hyper-link:visited {
+    color: #20938f;
+}
