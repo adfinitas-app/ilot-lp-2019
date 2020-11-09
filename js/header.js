@@ -29,8 +29,6 @@ $(document).ready(function() {
           var anchor = $(this.hash);
           anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) + "]");
           if (anchor.length) {
-              console.log(anchor);
-              console.log(anchor.offset().top);
               $("html, body").animate({
                   scrollTop: anchor.offset().top - $('.navigation').innerHeight()
               }, 1500);
