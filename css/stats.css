@@ -21,6 +21,12 @@
     z-index: 1;
 }
 
+.percent-label {
+    position: absolute;
+    top: -3px;
+    font-size: 16px;
+}
+
 .div-text-desc {
     background-color: rgba(18, 49, 109, 0.7);
     height: 100%;

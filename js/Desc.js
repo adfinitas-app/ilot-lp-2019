@@ -13,9 +13,6 @@ if(window.innerWidth <= 767) {
     heightActivate = 350;
     heightActivateDesc = -100;
     headerImgHeight = window.innerHeight - 80;
-    if (heightElement <= 0) {
-        document.getElementById("top-header").style.backgroundColor = "white";
-    }
     console.log(headerImgHeight);
     $("#TEM1").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM1-Mob.png");
     $("#TEM2").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM1-M.png");
@@ -65,7 +62,7 @@ $( window ).resize(function () {
             document.getElementById("top-header").style.backgroundColor = "rgba(0,0,0,0)";
         }
         $("#TEM1").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM1.png");
-        $("#TEM2").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM2.png");
+        $("#TEM2").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM2-new.jpg");
         $("#TEM3").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/TEM4.png");
         $("#TEM4").attr("src", "https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/lilot/Lilot-LP-2019/donateur_TEM.png");
 
@@ -193,6 +190,5 @@ function msieversion()
 msieversion();
 
 document.onscroll = function () {
-    checkHeight()
     checkOpacityChange();
 };
