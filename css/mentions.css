@@ -7,7 +7,8 @@
     top: 0px;
     left: 0px;
     background-color: rgba(26, 24, 27, 0.7);
-    padding-top: 20px;
+    padding-top: 11%;
+    padding-bottom: 20px;
     display: none;
     opacity: 1;
 }
@@ -15,8 +16,8 @@
 #mentions_div {
     position: relative;
     width: 850px;
-    min-height: 600px;
-    height: 700px;
+    max-height: 600px;
+    height: 100%;
     overflow: hidden;
     overflow-y: scroll;
     margin: auto;
@@ -45,17 +46,18 @@
     height: 25px;
     width: 25px;
     cursor: pointer;
-    z-index: 900;
+    z-index: 999;
 }
 
 @media screen and (max-width: 850px) {
     #mentions_div {
         width: 100%;
-        height: 800px;
+        height: calc(100vh - 77px);
         overflow-y: scroll;
         background-size: 100% auto;
         background-repeat: no-repeat;
-        padding:20px
+        padding: 20px;
+        margin-top: 77px;
     }
     .pad_left_mentions {
         padding-left: 30px;
@@ -73,4 +75,15 @@
     .title_mentions {
         font-size: 4vw;
     }
+}
+
+
+.hyper-link {
+    color: #2e9a97;
+}
+.hyper-link:hover {
+    color: #278a87;
+}
+.hyper-link:visited {
+    color: #20938f;
 }
